@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be Mine? ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: pink;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: white;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        .yes {
+            background-color: green;
+            color: white;
+        }
+
+        .no {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Will You Be My Girlfriend? 💖</h1>
+        <button class="btn yes" onclick="yesAnswer()">Yes</button>
+        <button class="btn no" onclick="noAnswer()">No</button>
+    </div>
+
+    <script>
+        function yesAnswer() {
+            window.location.href = "happy.html"; // Redirect to happy page
+        }
+
+        function noAnswer() {
+            window.location.href = "no.html"; // Redirect to a page with only YES option
+        }
+    </script>
+
+</body>
+
+</html>
